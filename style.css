@@ -1,0 +1,133 @@
+body{
+    background-color: #373757;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+div{
+    position: absolute;
+    border-radius: 12px;
+}
+.main_div{
+    height: 500px;
+    width: 855px;
+    background-color: #242433;
+    top: 40px;
+    left: 215px;
+    box-shadow: 10px 8px 25px black;
+}
+.div_1{
+    height: 480px;
+    width: 430px;
+    top: 10px;
+    left: 10px;
+}
+.div_2{
+    height: 480px;
+    width: 357px;
+    background: transparent;
+    top: 10px;
+    left: 490px;
+}
+img{
+    height: 480px;
+    width: 430px;
+    border-radius: 11px;
+}
+.paragraphs{
+    font-size: 12px;
+}
+.fa-brands{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    padding-left: -10px;
+}
+.nn{
+    background-color: #3e3e56;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding-inline-start: 10px;
+    height: 35px;
+    margin: 7px;
+}
+.emlpswd{
+    width: 300px;
+}
+.first_name{
+    position: absolute;
+    left: 15px;
+    width: 135px;
+}
+.last_name{
+    position: absolute;
+    right: 15px;
+    width: 135px;
+}
+.bttn{
+    color: white;
+    width: 310px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    background-color: #7B61FF;
+    cursor: pointer;
+}
+.bttn:hover{
+    background-color:#5b3bf9;
+}
+a{
+    text-decoration: none;
+    color: #7B61FF;
+}
+.btn{
+    width: 147px;
+    height: 35px;
+    color: white;
+    background: transparent;
+    border: solid 1px white;
+    border-radius: 4px;
+    padding-inline-end: 20px;
+    margin: 9px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #3e3e56;
+}
+.fa-google{
+    color: red;
+}
+.fa-apple{
+    color: white;
+}
+.lines{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.lines::before,
+.lines::after{
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid white;
+}
+
+.lines span{
+    padding: 0 10px;
+}
+.button1{
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    background: #43485c;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 140px;
+    cursor: pointer;
+}
+.fa-arrow-right{
+    color: white;
+}
