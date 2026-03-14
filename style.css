@@ -131,3 +131,28 @@ a{
 .fa-arrow-right{
     color: white;
 }
+@media screen and (max-width: 600px) {
+    .main_div{
+       height: 830px;
+       width: 370px;
+       left: 5px;
+       top: 12px;}
+    .div_1{
+       height: 350px;
+       width: 357px;
+       top: 10px;
+       left: 6px;}
+    img{
+       height: 350px;
+       width: 357px;}
+    .div_2{
+      height: 485px;
+      width: 357px;
+      top: 365px;
+      left: 8px;}
+   .button1{
+      top: 20px;
+      left: 210px;
+      height: 30px;
+      width: 140px;}
+}
